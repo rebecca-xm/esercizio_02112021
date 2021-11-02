@@ -68,8 +68,9 @@ const data = [
 // che contenga solamente i campi name ed email, 
 // quest'ultimo dovrà contenere testi esclusivamente in minuscolo.
 
-console.log(data);
+console.log(data); // CONSOLE LOG PRIMO ARRAY
 
+// NUOVO ARRAY
 
 const dataTwo = [];
   
@@ -81,4 +82,4 @@ data.forEach(element => {
     dataTwo.push(arrayData);
 });
 
-console.log(dataTwo);
+console.log(dataTwo); // CONSOLE LOG NUOVO ARRAY
